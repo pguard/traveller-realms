@@ -1,0 +1,8 @@
+Celebration music asset:
+
+Title: Jubilant Fanfare
+Performer: United States Navy Band Ceremonial Band
+Source: https://commons.wikimedia.org/wiki/File:Jubilant_Fanfare.mp3
+Downloaded file used by the game: celebration-trumpet-fanfare.mp3
+License: Public domain
+License note: U.S. federal government work / Public Domain Mark 1.0 on Wikimedia Commons

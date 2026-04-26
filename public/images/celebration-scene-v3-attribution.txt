@@ -1,0 +1,5 @@
+Celebration ending artwork:
+
+File used by the game: celebration-scene-v3.png
+Creation method: Generated for this project with OpenAI image generation and used as original project artwork.
+Intended use: Cartoony celebration scene background illustration for Realm Quest.
