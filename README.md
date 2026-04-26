@@ -25,9 +25,48 @@ The game includes:
 ## Requirements
 
 - `Node.js` 20+ recommended
-- `npm`
+- `npm` 10+ recommended
+- `git` for cloning the repository
+
+## Install Prerequisites
+
+If you do not already have Node.js installed, install it first.
+
+Recommended options:
+
+- macOS: install `Homebrew`, then run `brew install node`
+- Windows: install the official Node.js LTS release from [https://nodejs.org/](https://nodejs.org/)
+- Linux: install Node.js LTS using your package manager or `nvm`
+
+If you prefer `nvm`, see:
+
+- [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+
+After installation, verify your tools:
+
+```bash
+node --version
+npm --version
+git --version
+```
+
+You should see version output for each command.
+
+Optional tools:
+
+- `gh` (GitHub CLI) if you want to push changes or work with GitHub from the terminal
+- A code editor such as VS Code
 
 ## Install
+
+Clone the repo:
+
+```bash
+git clone https://github.com/pguard/traveller-realms.git
+cd traveller-realms
+```
+
+Install dependencies:
 
 ```bash
 npm ci
@@ -99,6 +138,7 @@ Not all visuals are stored as image files.
 - `node_modules/` is not committed. Install dependencies with `npm ci`.
 - Player/shop progress is stored in browser local storage during play.
 - The game currently uses a single bundle, so Vite may show a large chunk warning during production builds. The build still succeeds.
+- No database, backend server, or external API keys are required to run the game locally.
 
 ## Deployment
 
